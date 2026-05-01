@@ -783,7 +783,7 @@
       <span class="h1-line2">Baderdine</span>
     </h1>
     <p class="hero-desc">
-      Computer &amp; Communication Engineer based in Lebanon. I build embedded systems, design circuits, develop software, and teach the next generation of STEM creators.
+      Computer &amp; Communication Engineer based in Lebanon. I build embedded systems, design circuits, develop ML pipelines, deploy data science web apps, and teach the next generation of STEM creators.
     </p>
     <div class="hero-ctas">
       <a href="https://rayan-baderdine.github.io/portfolio/index.html#projects" class="btn-primary">View Projects</a>
@@ -869,6 +869,11 @@
         <span class="tag">ML Fundamentals</span>
         <span class="tag">RISC-V</span>
         <span class="tag">freeRTOS</span>
+        <span class="tag">XGBoost</span>
+        <span class="tag">SHAP</span>
+        <span class="tag">Streamlit</span>
+        <span class="tag">pandas</span>
+        <span class="tag">scikit-learn</span>
       </div>
     </div>
 
@@ -907,7 +912,18 @@
   <h2 class="section-title reveal visible">Projects</h2>
   <div class="projects-grid">
 
-    
+    <div class="project-card">
+  <span class="project-tag">01 — MACHINE LEARNING</span>
+  <h3>Customer Churn Prediction</h3>
+  <p>End-to-end ML pipeline predicting telecom customer churn using XGBoost. Applied SHAP for explainability. Deployed as a live interactive web app. AUC-ROC: 0.8485.</p>
+  <div class="project-tags">
+    <span>Python</span><span>XGBoost</span><span>SHAP</span><span>Streamlit</span><span>Optuna</span>
+  </div>
+  <div class="project-links">
+    <a href="YOUR_STREAMLIT_URL" target="_blank">Live Demo →</a>
+    <a href="https://github.com/rayan-baderdine/churn-prediction" target="_blank">GitHub →</a>
+  </div>
+</div>
 
     <div class="project-card reveal visible">
       <span class="project-num">02 — SIGNAL PROCESSING</span>
@@ -919,49 +935,49 @@
     
 
     <div class="project-card reveal visible">
-      <span class="project-num">04 — SOLAR TRACKING</span>
+      <span class="project-num">03 — SOLAR TRACKING</span>
       <h3>Dual-Axis Solar Tracker</h3>
       <p>An automated system using LDR sensors and servo motors to orient a solar panel toward maximum light throughout the day.</p>
       <a href="https://www.tinkercad.com/users/3g2vVRJzZDn?type=circuits" target="_blank" class="project-link">View on TinkerCAD →</a>
     </div>
 
     <div class="project-card reveal visible">
-      <span class="project-num">05 — DETECTION</span>
+      <span class="project-num">04 — DETECTION</span>
       <h3>Motion &amp; Distance Detection System</h3>
       <p>A smart sensor array combining PIR and ultrasonic modules for motion detection and distance measurement with alert output.</p>
       <a href="https://www.tinkercad.com/users/3g2vVRJzZDn?type=circuits" target="_blank" class="project-link">View on TinkerCAD →</a>
     </div>
 
     <div class="project-card reveal visible">
-      <span class="project-num">06 — MOTOR CONTROL</span>
+      <span class="project-num">05 — MOTOR CONTROL</span>
       <h3>Servo Controller with 7-Segment Display</h3>
       <p>Precise servo motor control with real-time angle readout shown on a 7-segment display, driven by a potentiometer input.</p>
       <a href="https://www.tinkercad.com/users/3g2vVRJzZDn?type=circuits" target="_blank" class="project-link">View on TinkerCAD →</a>
     </div>
 
     <div class="project-card reveal">
-      <span class="project-num">07 — AUTOMATION</span>
+      <span class="project-num">06 — AUTOMATION</span>
       <h3>Smart Home Automation Prototype</h3>
       <p>A modular Arduino-based prototype controlling lights and fans based on environmental sensor readings.</p>
       <a href="https://www.tinkercad.com/users/3g2vVRJzZDn?type=circuits" target="_blank" class="project-link">View on TinkerCAD →</a>
     </div>
 
     <div class="project-card reveal">
-      <span class="project-num">08 — ROBOTICS</span>
+      <span class="project-num">07 — ROBOTICS</span>
       <h3>Line-Following Robot</h3>
       <p>A two-wheeled robot using IR sensors and motor driver to follow a line path autonomously.</p>
       <a href="https://www.tinkercad.com/users/3g2vVRJzZDn?type=circuits" target="_blank" class="project-link">View on TinkerCAD →</a>
     </div>
 
     <div class="project-card reveal">
-      <span class="project-num">09 — HARDWARE</span>
+      <span class="project-num">08 — HARDWARE</span>
       <h3>Smart Blind Stick</h3>
       <p>Arduino-powered assistive device for visually impaired users — uses ultrasonic sensing to detect obstacles and alert the user.</p>
       <a href="https://www.tinkercad.com/users/3g2vVRJzZDn?type=circuits" target="_blank" class="project-link">View on TinkerCAD →</a>
     </div>
 
     <div class="project-card reveal">
-      <span class="project-num">10 — SYSTEMS</span>
+      <span class="project-num">09 — SYSTEMS</span>
       <h3>Spectrum Analyzer &amp; Library Management</h3>
       <p>Two undergraduate projects: a signal spectrum analyzer and a full SQL-backed library management system.</p>
       <a href="file:///C:/Users/USER/OneDrive/Documents/OneDrive/Desktop/Rayan%20Baderdine/RayanBaderdine_Portfolio.html#" class="project-link">View Details →</a>
@@ -1016,6 +1032,18 @@
 
     <div class="cv-col">
       <h3>Experience</h3>
+
+      <div class="experience-item">
+  <span class="exp-date">Mar 2026 — April 2026</span>
+  <h4>Data Science Intern</h4>
+  <p class="exp-company">Codveda Technology — Remote</p>
+  <ul>
+    <li>Completed 6 end-to-end data science projects across 3 difficulty levels</li>
+    <li>Built ML models: regression (R²=0.89), classification (96.7% accuracy), NLP sentiment analysis</li>
+    <li>Designed a feed-forward neural network with 96.7% test accuracy</li>
+    <li>Tools: Python, scikit-learn, pandas, NLTK, BeautifulSoup, NumPy</li>
+  </ul>
+</div>
 
       <div class="cv-item">
         <div class="cv-item-year">Oct 2024 — Jul 2025</div>
